@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="二级折叠列表"
+        android:textColor="@color/color_333333"
+        android:textSize="17sp" />
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:id="@+id/btn_brvah"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="BaseNodeAdapter"
+        android:textColor="@color/white"
+        app:qmui_backgroundColor="@color/color_ff3364"
+        app:qmui_radius="24dp" />
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:id="@+id/btn_brvah1"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="BaseMultiItemQuickAdapter"
+        android:textColor="@color/white"
+        app:qmui_backgroundColor="@color/color_ff3364"
+        app:qmui_radius="24dp" />
+
+</LinearLayout>
